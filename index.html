@@ -1,63 +1,87 @@
-<html>
-  <head>
-    <!-- Our unique tag to identify the solution -->
-    <bds />
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BigDevSoon Challenge</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Our unique tag to identify the solution -->
+        <bds />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+        <title>BigDevSoon Add To Bag challenge</title>
 
-    <!-- TailwindCSS for styling. Feel free to integrate other libraries as needed -->
-    <script src="https://cdn.tailwindcss.com"></script>
+        <!-- TailwindCSS for styling -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
 
-    <!-- Add your external script links here, if any -->
-  </head>
+    <body class="bg-white flex flex-col items-center justify-center min-h-screen">
+        <div class="flex flex-col lg:flex-row gap-8 bg-white text-gray-800 p-8 max-w-4xl w-full md:min-w-fit">
+            <div class="flex gap-4">
+                <div class="flex flex-col gap-4">
+                    <div class="w-20 h-24 border-[3px] overflow-hidden rounded-md border-sky-600">
+                        <a href="#">
+                            <img
+                                    class="object-cover w-full h-full"
+                                    src="https://i.ibb.co/Mh3FMNq/product2024-07-09-184853.png"
+                                    alt="Product mini image"
+                            />
+                        </a>
+                    </div>
+                    <div class="w-20 h-24 border-2 overflow-hidden rounded-md opacity-75 border-none hover:opacity-50">
+                        <a href="#">
+                            <img
+                                    class="object-cover w-full h-full"
+                                    src="https://i.ibb.co/Mh3FMNq/product2024-07-09-184853.png"
+                                    alt="Product mini image"
+                            />
+                        </a>
+                    </div>
+                    <div class="w-20 h-24 border-2 overflow-hidden rounded-md opacity-75 border-none hover:opacity-50">
+                        <a href="#">
+                            <img
+                                    class="object-cover w-full h-full"
+                                    src="https://i.ibb.co/Mh3FMNq/product2024-07-09-184853.png"
+                                    alt="Product mini image"
+                            />
+                        </a>
+                    </div>
+                </div>
 
-  <body
-    class="bg-gray-900 flex flex-col items-center justify-center min-h-screen"
-  >
-    <div
-      class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg"
-    >
-      <!-- Logo and Title -->
-      <img
-        src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg"
-        alt="BigDevSoon Logo"
-        class="w-150 mx-auto"
-      />
-      <!-- Introduction and Instructions -->
-      <p class="text">
-        Utilize the tabs in <strong>BigDevSoon's challenge page</strong> to
-        access everything you need. The <strong>Instructions</strong> tab
-        contains specific details for implementing this task.
-      </p>
+                <div class="flex-1 flex items-center justify-center w-[430px] h-[550px]">
+                    <img
+                            class="rounded-lg object-cover w-[480px] h-[560px]"
+                            src="https://i.ibb.co/Mh3FMNq/product2024-07-09-184853.png"
+                            alt="Product"
+                    />
+                </div>
+            </div>
+            <div class="right-side flex flex-col items-start justify-center p-3 space-y-6 min-h-full md:w-[550px]">
+                <a href="https://www.ralphlauren.com/" class="text-sm font-semibold text-[#5196e7]">POLO RALPH</a>
+                <h1 class="text-5xl leading-tight font-bold">Custom Fit Polo Bear Oxford Shirt</h1>
+                <p class="text-gray-400 font-semibold">Blue polo with a classic cut. Made of smooth and soft cotton.</p>
+                <div class="flex flex-col space-y-1 font-semibold">
+                    <div class="flex items-center space-x-2">
+                        <h2 class="text-3xl">$99.00</h2>
+                        <span class="text-md mt-1 text-[#156cda] px-1 py-0.5 rounded-md bg-[#b0cbf9]">-25%</span>
+                    </div>
+                    <span class="pt-1 line-through text-gray-400">$132.00</span>
+                </div>
+                <div>
+                    <h3 class="text-md font-bold uppercase mb-3">Choose size</h3>
+                    <div class="flex space-x-4 font-semibold md:mb-5 mb-16">
+                        <a href="#" class="py-2 px-4 cursor-pointer hover:bg-slate-200">S</a>
+                        <a href="#" class="py-2 px-4 cursor-pointer bg-black text-white">M</a>
+                        <a href="#" class="py-2 px-4 cursor-pointer hover:bg-slate-200">L</a>
+                        <a href="#" class="py-2 px-4 cursor-pointer hover:bg-slate-200">XL</a>
+                        <a href="#" class="py-2 px-4 cursor-pointer hover:bg-slate-200">XXL</a>
+                    </div>
+                </div>
 
-      <!-- Encouragement for Creativity and Interaction -->
-      <ul class="list-disc list-inside space-y-2">
-        <li>
-          Be <strong>creative!</strong> Don't hesitate to bring your unique
-          ideas to life.
-        </li>
-        <li>
-          Interact with <strong>ChatGPT</strong> for coding assistance and
-          hints.
-        </li>
-        <li>
-          Connect with other developers who are tackling the same challenge in
-          the <strong>People</strong> tab.
-        </li>
-        <li>
-          Need a nudge in the right direction? Check out the
-          <strong>Help</strong> tab.
-        </li>
-      </ul>
-
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel
-        free to integrate any other libraries using their respective CDNs to
-        enhance your project.
-      </p>
-    </div>
-  </body>
+                <button class="bg-[#1a76ff] hover:bg-[#1a76ff]/90 text-white w-full font-bold py-3 px-4 rounded-md">
+                    ADD TO BAG
+                </button>
+            </div>
+        </div>
+    </body>
 </html>
