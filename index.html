@@ -1,63 +1,90 @@
-<html>
-  <head>
-    <!-- Our unique tag to identify the solution -->
-    <bds />
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BigDevSoon Challenge</title>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- TailwindCSS for styling. Feel free to integrate other libraries as needed -->
-    <script src="https://cdn.tailwindcss.com"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-    <!-- Add your external script links here, if any -->
-  </head>
-
-  <body
-    class="bg-gray-900 flex flex-col items-center justify-center min-h-screen"
-  >
-    <div
-      class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg"
-    >
-      <!-- Logo and Title -->
-      <img
-        src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg"
-        alt="BigDevSoon Logo"
-        class="w-150 mx-auto"
-      />
-      <!-- Introduction and Instructions -->
-      <p class="text">
-        Utilize the tabs in <strong>BigDevSoon's challenge page</strong> to
-        access everything you need. The <strong>Instructions</strong> tab
-        contains specific details for implementing this task.
-      </p>
-
-      <!-- Encouragement for Creativity and Interaction -->
-      <ul class="list-disc list-inside space-y-2">
-        <li>
-          Be <strong>creative!</strong> Don't hesitate to bring your unique
-          ideas to life.
-        </li>
-        <li>
-          Interact with <strong>ChatGPT</strong> for coding assistance and
-          hints.
-        </li>
-        <li>
-          Connect with other developers who are tackling the same challenge in
-          the <strong>People</strong> tab.
-        </li>
-        <li>
-          Need a nudge in the right direction? Check out the
-          <strong>Help</strong> tab.
-        </li>
-      </ul>
-
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel
-        free to integrate any other libraries using their respective CDNs to
-        enhance your project.
-      </p>
+<body class="bg-yellow-100 flex items-center justify-center h-screen">
+  <div class="max-w-sm rounded-lg shadow-lg bg-white overflow-hidden">
+    <div class="relative">
+      <div class="bg-pink-700 inset-x-0 bottom-0 flex justify-center py-2.5">
+        <img class="w-24 h-24 rounded-full"
+             src="assets/ich.jpg" alt="Profile Image">
+      </div>
     </div>
-  </body>
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
+         class="transition duration-300 ease-in-out delay-150">
+      <defs>
+        <linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+          <stop offset="5%" stop-color="#be18a1"></stop>
+          <stop offset="95%" stop-color="#be185d"></stop>
+        </linearGradient>
+      </defs>
+      <path d="M 0,400 L 0,100 C 72.12352724594994,95.96410162002945 144.2470544918999,91.9282032400589 198,81 C
+      251.7529455081001,70.0717967599411 287.13530927835046,52.25128865979384 341,67 C 394.86469072164954,81.74871134020616
+       467.2117083946981,129.0666421207658 536,138 C 604.7882916053019,146.9333578792342 670.0178571428571,117.48214285714286
+        730,115 C 789.9821428571429,112.51785714285714 844.7168630338734,137.00478645066275 904,135 C 963.2831369661266,132.99521354933725
+         1027.1146907216494,104.49871134020619 1083,87 C 1138.8853092783506,69.50128865979381 1186.8243740795288,63.000368188512525 1245,67
+          C 1303.1756259204712,70.99963181148748 1371.5878129602356,85.49981590574373 1440,100 L 1440,400 L 0,400 Z" stroke="none"
+            stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 200)">
+      </path>
+      <defs>
+        <linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+        <stop offset="5%" stop-color="#be18a1"></stop>
+        <stop offset="95%" stop-color="#be185d"></stop>
+        </linearGradient>
+      </defs>
+      <path d="M 0,400 L 0,233 C 44.195876288659775,248.7693298969072 88.39175257731955,264.5386597938144 155,255
+       C 221.60824742268045,245.46134020618555 310.6288659793815,210.6146907216495 380,216 C 449.3711340206185,221.3853092783505
+        499.09278350515456,267.00257731958766 556,262 C 612.9072164948454,256.99742268041234 676.9999999999999,201.37499999999997
+         741,201 C 805.0000000000001,200.62500000000003 868.9072164948456,255.4974226804124 927,273 C 985.0927835051544,290.5025773195876
+          1037.3711340206185,270.6353092783505 1088,250 C 1138.6288659793815,229.3646907216495 1187.6082474226803,207.96134020618555
+           1246,205 C 1304.3917525773197,202.03865979381445 1372.1958762886597,217.5193298969072 1440,233 L 1440,400 L 0,400 Z"
+            stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"
+            transform="rotate(-180 720 200)">
+      </path>
+    </svg>
+    <h1 class="text-center text-2xl font-semibold text-gray-800 my-1">Simon Drohsen</h1>
+    <p class="text-center text-gray-500">@simondrohsen</p>
+    <div class="flex justify-center mt-4 space-x-7">
+      <a href="#" class="text-black hover:text-gray-600">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="#" class="text-black hover:text-gray-600">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="#" class="text-black hover:text-gray-600">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="#" class="text-black hover:text-gray-600">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#" class="text-black hover:text-gray-600">
+        <i class="fa-solid fa-basketball"></i>
+      </a>
+    </div>
+    <p class="mt-4 text-gray-600 p-4">
+      Crafting brand and communication strategies, creating visual designs, leading art direction, and
+      capturing portraits through photography.
+    </p>
+    <div class="flex justify-around p-6">
+      <button
+              class="min-w-32 px-4 py-2 bg-pink-600 text-white rounded-full font-semibold hover:bg-pink-700 focus:outline-none">
+        Follow
+      </button>
+      <button
+              class="min-w-32 px-4 py-2 bg-gray-200 text-gray-700 rounded-full font-semibold hover:bg-gray-300 focus:outline-none">
+        Message
+      </button>
+    </div>
+  </div>
+</body>
+
+<script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
+
 </html>
