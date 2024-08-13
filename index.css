@@ -1,1 +1,9 @@
-/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+.wave {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(135deg, #845ec2, #d65db1);
+    clip-path: xywh(0 60% 50% 40% round 100% 0);
+}
