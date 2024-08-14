@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <bds />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigDevSoon challenge</title>
-    <script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+<head>
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigDevSoon challenge</title>
+  <script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-  <body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen">
-    <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg">
-      <img src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg" alt="BigDevSoon Logo" class="w-150 mx-auto">
-      <h1 class="text-2xl font-bold text-center">Music Events challenge</h1>
-      <p class="text">
-        The goal is to transform the provided design screenshot into a functional, complete challenge.
-      </p>
-
-      <ul class="list-disc list-inside space-y-2">
-        <li>Documentation is available at: <strong><a href="https://github.com/elise-bigdevsoon/big-dev-soon-challenge-template" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">GitHub</a></strong>.</li>
-        <li>Use the <strong>Browser</strong> tab for the live preview of your code changes.</li>
-        <li>Read the <strong>Instructions</strong> tab for challenge details.</li>
-        <li>Brainstorm with the <strong>AI Buddy</strong> to speed up and improve your implementation.</li>
-        <li>Ask questions, and discuss with other folks in the <strong>Discussions</strong> tab.</li>
-        <li>Browse community solutions in the <strong>Solutions</strong> tab for inspiration.</li>
-      </ul>
-
-      <p class="text-sm">
-        You can click the <strong>Generate code solution</strong> icon next to the Submit button to generate an AI-based code solution while stuck.
-      </p>
-
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel free to integrate other libraries using their CDNs to enhance your challenge.
-      </p>
+<body class="bg-gray-200 flex flex-col items-center justify-center min-h-screen">
+<div class="bg-gray-950 text-white p-8 space-y-4 shadow rounded-xl min-w-96">
+  <h1 class="text-2xl font-bold text-left">Generate password</h1>
+  <form>
+    <div>
+      <p class="pb-2 text-gray-600">GENERATED PASSWORD</p>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between">
+        <p>sZBseL181NEj</p>
+        <div class="text-fuchsia-400">
+          <button type="button" class="py-2 rounded-md ml-2"><i class="fa-regular fa-copy"></i></button>
+          <button type="button" class="py-2 rounded-md ml-2"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+      </div>
     </div>
-  </body>
-
+    <div>
+      <div class="flex justify-between py-4">
+        <p class="text-gray-600">CHARACTER LENGTH</p>
+        <p class="text-fuchsia-400">12</p>
+      </div>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between mb-2">
+        <p>12</p>
+        <div class="flex justify-center">
+          <input type="range" id="price-range" class="w-full accent-fuchsia-400" min="12" max="32">
+        </div>
+        <p>32</p>
+      </div>
+    </div>
+    <div>
+      <p class="py-4 text-gray-600">SETTINGS</p>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between mb-2">
+        <p>Include uppercase letters</p>
+        <div class="text-fuchsia-400">
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-500 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-fuchsia-400"></div>
+          </label>
+        </div>
+      </div>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between mb-2">
+        <p>Include lowercase letters</p>
+        <div class="text-fuchsia-400">
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-500 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-fuchsia-400"></div>
+          </label>
+        </div>
+      </div>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between mb-2">
+        <p>Include numbers</p>
+        <div class="text-fuchsia-400">
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-500 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-fuchsia-400"></div>
+          </label>
+        </div>
+      </div>
+      <div class="bg-purple-900 rounded-xl px-4 py-2 flex items-center justify-between">
+        <p>Include symbols</p>
+        <div class="text-fuchsia-400">
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer">
+            <div class="relative w-11 h-6 bg-gray-500 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-fuchsia-400"></div>
+          </label>
+        </div>
+      </div>
+      <button class="w-full">
+        <div class="bg-fuchsia-400 rounded-xl p-4 flex items-center justify-center mt-8">
+          <p>GENERATE PASSWORD</p>
+        </div>
+      </button>
+    </div>
+  </form>
+</div>
+</body>
 </html>
