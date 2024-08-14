@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <bds />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BigDevSoon challenge</title>
+  <head>
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon challenge</title>
+    <script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen">
-<div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg">
-  <img src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg" alt="BigDevSoon Logo" class="w-150 mx-auto">
-  <h1 class="text-2xl font-bold text-center">Music Events challenge</h1>
-  <p class="text">
-    The goal is to transform the provided design screenshot into a functional, complete challenge.
-  </p>
-
-  <ul class="list-disc list-inside space-y-2">
-    <li>Documentation is available at: <strong><a href="https://github.com/elise-bigdevsoon/big-dev-soon-challenge-template" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">GitHub</a></strong>.</li>
-    <li>Use the <strong>Browser</strong> tab for the live preview of your code changes.</li>
-    <li>Read the <strong>Instructions</strong> tab for challenge details.</li>
-    <li>Brainstorm with the <strong>AI Buddy</strong> to speed up and improve your implementation.</li>
-    <li>Ask questions, and discuss with other folks in the <strong>Discussions</strong> tab.</li>
-    <li>Browse community solutions in the <strong>Solutions</strong> tab for inspiration.</li>
-  </ul>
-
-  <p class="text-sm">
-    You can click the <strong>Generate code solution</strong> icon next to the Submit button to generate an AI-based code solution while stuck.
-  </p>
-
-  <p class="text-sm border-t pt-6">
-    <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel free to integrate other libraries using their CDNs to enhance your challenge.
-  </p>
-</div>
-</body>
-
+  <body class="bg-gray-200 flex flex-col items-center justify-center min-h-screen">
+    <div class="p-2 pb-8">
+      <h1 class="text-3xl font-bold">Music Events</h1>
+      <h2>in London, United Kingdom</h2>
+    </div>
+    <div>
+      <ul role="list">
+        <li class="flex justify-between gap-x-6 py-5 p-4 bg-white rounded-xl mb-4">
+          <div class="flex min-w-0 gap-x-4">
+            <div class="min-w-32 flex-auto bg-red-200 rounded-lg p-4 text-center">
+              <p class="text-sm font-semibold leading-6 text-gray-900">Today</p>
+              <p class="mt-1 truncate text-2xl leading-5 text-black">21:00</p>
+            </div>
+            <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-start">
+              <h3 class="font-bold text-2xl">Swiftogeddon - The Taylor Swift Club Night</h3>
+              <p>Swiftogedon is a night dedicated to worshipping at the altar of Taylor<br>Swift: non-stop Swifty all night: deep cuts, extended mixes, fan favourites...</p>
+            </div>
+          </div>
+          <div class="flex items-center pr-8">
+            <p>Sold out!</p>
+          </div>
+        </li>
+        <li class="flex justify-between gap-x-6 py-5 p-4 bg-white rounded-xl mb-4">
+          <div class="flex min-w-0 gap-x-4">
+            <div class="min-w-32 flex-auto bg-lime-100 rounded-lg p-4 text-center">
+              <p class="text-sm font-semibold leading-6 text-gray-900">17 December</p>
+              <p class="mt-1 truncate text-2xl leading-5 text-black">22:00</p>
+            </div>
+            <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-start">
+              <h3 class="font-bold text-2xl">Lana Del Rave</h3>
+              <p>Launching the first ever 'Lana Del Rave' at Heaven Nightclub. Join us for a<br>night devoted to the Queen of Alternative as well as favourites from...</p>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button class="bg-black text-white rounded-xl p-4">
+              <i class="fa-solid fa-ticket pr-2"></i>Buy a Ticket
+            </button>
+          </div>
+        </li>
+        <li class="flex justify-between gap-x-6 p-5 bg-white rounded-xl mb-4">
+          <div class="flex min-w-0 gap-x-4">
+            <div class="min-w-32 flex-auto bg-sky-100 rounded-lg p-4 text-center">
+              <p class="text-sm font-semibold leading-6 text-gray-900">19 December</p>
+              <p class="mt-1 truncate text-2xl leading-5 text-black">18:30</p>
+            </div>
+            <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-start">
+              <h3 class="font-bold text-2xl">MASSAOKE: XMAS LIVE at the Electric Ballroom</h3>
+              <p>Featuring all your favourite festive hits from WHAM, SLADE, MARIAH,<br>WIZZARD, THE POGUES and many more - as well as hairbrush anthems...</p>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button class="bg-black text-white rounded-xl p-4">
+              <i class="fa-solid fa-ticket pr-2"></i>Buy a Ticket
+            </button>
+          </div>
+        </li>
+        <li class="flex justify-between gap-x-6 py-5 p-4 bg-white rounded-xl">
+          <div class="flex min-w-0 gap-x-4">
+            <div class="min-w-32 flex-auto bg-purple-200 rounded-lg p-4 text-center">
+              <p class="text-sm font-semibold leading-6 text-gray-900">22 December</p>
+              <p class="mt-1 truncate text-2xl leading-5 text-black">19:00</p>
+            </div>
+            <div class="hidden shrink-0 sm:flex sm:flex-col sm:items-start">
+              <h3 class="font-bold text-2xl">Eleni Tsaligopoulou full-band</h3>
+              <p>Eleni Tsaligopoulou is one of the most popular and beloved Greek singers<br>with a wide range of repertoire and timeless hits. During her 30 year...</p>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button class="bg-black text-white rounded-xl p-4">
+              <i class="fa-solid fa-ticket pr-2"></i>Buy a Ticket
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
