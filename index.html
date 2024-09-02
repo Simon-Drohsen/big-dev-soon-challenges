@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="h-full bg-white">
   <head>
     <bds />
     <meta charset="UTF-8">
@@ -10,30 +9,76 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen">
-    <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg">
-      <img src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg" alt="BigDevSoon Logo" class="w-150 mx-auto">
-      <h1 class="text-2xl font-bold text-center">Music Events challenge</h1>
-      <p class="text">
-        The goal is to transform the provided design screenshot into a functional, complete challenge.
-      </p>
+  <body class="h-fit">
+    <div class="flex justify-around mt-40">
+      <div class="flex flex-col px-6 py-6 max-w-fit h-fit lg:px-8 shadow-2xl rounded-xl">
+        <div class="sm:mx-auto w-fit">
+          <h2 class="my-5 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">Sign Up</h2>
+          <p>Join us now! Sign up to kick-start your journey.</p>
+        </div>
 
-      <ul class="list-disc list-inside space-y-2">
-        <li>Documentation is available at: <strong><a href="https://github.com/elise-bigdevsoon/big-dev-soon-challenge-template" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">GitHub</a></strong>.</li>
-        <li>Use the <strong>Browser</strong> tab for the live preview of your code changes.</li>
-        <li>Read the <strong>Instructions</strong> tab for challenge details.</li>
-        <li>Brainstorm with the <strong>AI Buddy</strong> to speed up and improve your implementation.</li>
-        <li>Ask questions, and discuss with other folks in the <strong>Discussions</strong> tab.</li>
-        <li>Browse community solutions in the <strong>Solutions</strong> tab for inspiration.</li>
-      </ul>
+        <div class="pt-8">
+          <button id="google2" name="google2" type="button" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            <i class="fa-brands fa-google"></i>
+            Sign Up with Google
+          </button>
+        </div>
+        <div class="py-5">
+          <button id="email2" name="email2" type="button" class="block w-full rounded-md border-0 py-1.5 bg-blue-950 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            <i class="fa-regular fa-envelope"></i>
+            Sign Up with Email
+          </button>
+        </div>
 
-      <p class="text-sm">
-        You can click the <strong>Generate code solution</strong> icon next to the Submit button to generate an AI-based code solution while stuck.
-      </p>
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+          <p class="mt-2 text-center text-sm text-gray-500 mb-4">
+            Already have an account?
+            <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Log In</a>
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col px-6 py-6 max-w-fit max-h-fit lg:px-8 shadow-2xl rounded-xl">
+        <div class="sm:mx-auto w-fit">
+          <h2 class="my-5 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">Sign Up</h2>
+          <p>Join us now! Sign up to kick-start your journey.</p>
+        </div>
 
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel free to integrate other libraries using their CDNs to enhance your challenge.
-      </p>
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <form class="space-y-6" action="#" method="POST">
+            <div>
+              <div class="mt-2">
+                <input id="name" name="name" type="text" placeholder="Name" autocomplete="name" required class="block w-full rounded-md border-0 pl-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+            <div>
+              <div class="mt-2">
+                <input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required class="block w-full rounded-md border-0 pl-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+            <div>
+              <div class="mt-2">
+                <input id="password" name="password" type="password" placeholder="Password" autocomplete="current-password" required class="block w-full rounded-md border-0 pl-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+
+            <div>
+              <button type="submit" class="flex w-full justify-center rounded-md bg-blue-950 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign Up</button>
+            </div>
+          </form>
+
+          <p class="mt-10 text-center text-sm text-gray-500 mb-4">
+            Already have an account?
+            <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Log In</a>
+          </p>
+
+          <div class="pb-4 pt-7 border-t border-gray-200">
+            <button id="google1" name="google1" type="button" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              <i class="fa-brands fa-google"></i>
+              Sign Up with Google
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
