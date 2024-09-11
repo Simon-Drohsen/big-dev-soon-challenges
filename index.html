@@ -5,78 +5,43 @@
     <bds />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigDevSoon challenge</title>
+    <title>Profile Card</title>
     <script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-[#e7b389] flex flex-row items-center justify-center min-h-screen">
-    <div class="flex flex-col lg:flex-row gap-8 bg-white text-gray-800 p-8 max-w-4xl w-full md:min-w-fit">
-      <div class="p-8 min-w-96">
-        <div class="mb-4">
-          <label class="block text-gray-600 mb-1">Check In</label>
-          <input type="date" class="w-full border border-gray-300 p-2 rounded-lg">
+  <body class="bg-[#e4ccbd] flex items-center justify-center h-screen">
+    <div class="max-w-96 rounded-lg shadow-lg bg-white overflow-hidden">
+      <div class="relative">
+        <div class="inset-x-0 bottom-0 flex justify-center">
+          <img class="rounded-md pb-2.5" src="https://placehold.co/384x300.png" alt="Profile Image">
         </div>
-
-        <div class="mb-4">
-          <label class="block text-gray-600 mb-1">Check Out</label>
-          <input type="date" class="w-full border border-gray-300 p-2 rounded-lg">
-        </div>
-
-        <div class="flex justify-between space-x-4 mb-4">
-          <div class="w-1/2">
-            <label class="block text-gray-600 mb-1">Adults</label>
-            <select class="w-full border border-gray-300 p-2 rounded-lg">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-          </div>
-
-          <div class="w-1/2">
-            <label class="block text-gray-600 mb-1">Children</label>
-            <select class="w-full border border-gray-300 p-2 rounded-lg">
-              <option>0</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-          </div>
-        </div>
-
-        <button class="w-full bg-orange-400 text-white p-2 rounded-full mt-60">
-          Book a room
-        </button>
       </div>
-      <div class="flex gap-4">
-        <div class="flex flex-col">
-          <div class="flex-1 flex items-center justify-center">
-            <img class="object-cover" src="https://placehold.co/1800x1650.png" alt="Product"
-            />
-          </div>
-          <div class="flex flex-row gap-4 pt-6">
-            <div class="border-2 overflow-hidden opacity-75 border-none hover:opacity-50">
-              <a href="#">
-                <img class="object-cover w-full h-full" src="https://placehold.co/550.png" alt="Product mini image"
-                />
-              </a>
-            </div>
-            <div class="border-2 overflow-hidden opacity-75 border-none hover:opacity-50">
-              <a href="#">
-                <img class="object-cover w-full h-full" src="https://placehold.co/550.png" alt="Product mini image"
-                />
-              </a>
-            </div>
-            <div class="border-2 overflow-hidden opacity-75 border-none hover:opacity-50">
-              <a href="#">
-                <img class="object-cover w-full h-full" src="https://placehold.co/550.png" alt="Product mini image"
-                />
-              </a>
-            </div>
-          </div>
+      <div class="px-5 text-left">
+        <h1 class="text-2xl font-semibold text-gray-800 my-1">Gramercy Tavern</h1>
+        <p class="text-gray-500">20th St New York</p>
+        <div class="mr-4">
+          <i class="relative left-full bottom-6 fa-regular fa-heart"></i>
         </div>
+        <div>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          <i class="fa-regular fa-star mr-1" style="color: #FFD43B;"></i>
+          (231 reviews)
+        </div>
+        <p class="mt-4 text-gray-600">
+          A quintessential New York City gem among the city's iconic establishments, Gramercy Tavern serves as
+          an extraordinary destination for special occasions and an elevated version of an everyday retreat. It's
+          the unique kind of place you choose for a celebration after a joyful engagement, or casually wander into
+          to seek refuge from an unexpected downpour.
+        </p>
+      </div>
+      <div class="flex justify-around mt-6">
+        <button class="min-w-full p-4 bg-black text-white rounded-b-lg font-semibold">
+          Make a reservation
+        </button>
       </div>
     </div>
   </body>
