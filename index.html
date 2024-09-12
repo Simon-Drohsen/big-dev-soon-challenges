@@ -5,42 +5,102 @@
     <bds />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
+    <title>Task Board</title>
     <script src="https://kit.fontawesome.com/c0851518d1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-[#e4ccbd] flex items-center justify-center h-screen">
-    <div class="max-w-96 rounded-lg shadow-2xl bg-white overflow-hidden">
-      <div class="relative">
-        <div class="inset-x-0 bottom-0 flex justify-center">
-          <img class="rounded-md pb-2.5" src="https://placehold.co/384x300.png" alt="Profile Image">
+  <body class="bg-slate-200 flex items-center justify-center h-screen">
+    <div class="grid grid-cols-4 gap-4">
+      <div class="font-semibold">
+        <p>To Do <span class="font-light text-slate-400">+</span></p>
+      </div>
+      <div class="font-semibold">
+        <p>In progress <span class="font-light text-slate-400">+</span></p>
+      </div>
+      <div class="font-semibold">
+        <p>Under Review <span class="font-light text-slate-400">+</span></p>
+      </div>
+      <div class="font-semibold">
+        <p>Done <span class="font-light text-slate-400">+</span></p>
+      </div>
+      <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+        <div class="flex justify-between p-2 text-gray-400">
+          <p class="bg-pink-500 text-white py-px px-1 rounded-lg">HIGH</p>
+          <p>2/15/24</p>
+        </div>
+        <div class="flex justify-center mt-2">
+          <img src="https://placehold.co/200x100.png" class="rounded-xl">
+        </div>
+        <div class="pb-4 px-4">
+          <p class="font-bold my-2">Update Website Homepage</p>
+          <p>Revise the content and layout of the homepage to highlight new features and improve user engagement.</p>
         </div>
       </div>
-      <div class="relative px-5 text-left">
-        <h1 class="text-2xl font-semibold text-gray-800 my-1">Gramercy Tavern</h1>
-        <p class="text-gray-500">20th St New York</p>
-        <i class="absolute right-6 top-6 fa-regular fa-heart"></i>
-
-        <div>
-          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-          <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-          <i class="fa-regular fa-star mr-1" style="color: #FFD43B;"></i>
-          (231 reviews)
+      <div>
+        <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+          <div class="flex justify-between p-2 text-gray-400">
+            <p class="bg-green-500 text-white py-px px-1 rounded-lg">LOW</p>
+            <p>2/13/24</p>
+          </div>
+          <div class="pb-4 px-4">
+            <p class="font-bold my-2">Bug fix - User Registration</p>
+            <p>Investigate and resolve th reported bug in the user registration process where some user are unable to sign up.</p>
+          </div>
         </div>
-        <p class="mt-4 text-gray-600">
-          A quintessential New York City gem among the city's iconic establishments, Gramercy Tavern serves as
-          an extraordinary destination for special occasions and an elevated version of an everyday retreat. It's
-          the unique kind of place you choose for a celebration after a joyful engagement, or casually wander into
-          to seek refuge from an unexpected downpour.
-        </p>
       </div>
-      <div class="flex justify-around mt-6">
-        <button class="min-w-full p-4 bg-black text-white rounded-b-lg font-semibold">
-          Make a reservation
-        </button>
+      <div>
+        <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+          <div class="flex justify-between p-2 text-gray-400">
+            <p class="bg-pink-500 text-white py-px px-1 rounded-lg">HIGH</p>
+            <p>2/11/24</p>
+          </div>
+          <div class="pb-4 px-4">
+            <p class="font-bold my-2">Mobile App Feature - Push Notifications</p>
+            <p>Implement push notification feature for the mobile app to enhance user  engagement. Ensure compatibility with both IOS and Android platforms.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+          <div class="flex justify-between p-2 text-gray-400">
+            <p class="bg-green-500 text-white py-px px-1 rounded-lg">LOW</p>
+            <p>2/09/24</p>
+          </div>
+          <div class="pb-4 px-4">
+            <p class="font-bold my-2">Content creation - Blog post</p>
+            <p>Write and publish a blog post about industry trends and their impact on our products/services. Include relevant visuals and SEO optimization.</p>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div class="grid grid-cols-subgrid gap-4 col-span-2">
+        <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+          <div class="flex justify-between p-2 text-gray-400">
+            <p class="bg-blue-500 text-white py-px px-1 rounded-lg">MEDIUM</p>
+            <p>2/08/24</p>
+          </div>
+          <div class="flex justify-center mt-2">
+            <img src="https://placehold.co/200x100.png" class="rounded-xl">
+          </div>
+          <div class="pb-4 px-4">
+            <p class="font-bold my-2">Social Media Campaign</p>
+            <p>Plan and execute a social media campaign for the upcoming product launch in February, including creating posts and scheduling updates.</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-64 rounded-lg shadow-2xl bg-white overflow-hidden">
+        <div class="flex justify-between p-2 text-gray-400">
+          <p class="bg-blue-500 text-white py-px px-1 rounded-lg">Medium</p>
+          <p>2/07/24</p>
+        </div>
+        <div class="flex justify-center mt-2">
+          <img src="https://placehold.co/200x100.png" class="rounded-xl">
+        </div>
+        <div class="pb-4 px-4">
+          <p class="font-bold my-2">IT Security Audit</p>
+          <p>Write and publish a blog post about industry trends and their impact on our products/services. Include relevant visuals and SEO optimization.</p>
+        </div>
       </div>
     </div>
   </body>
