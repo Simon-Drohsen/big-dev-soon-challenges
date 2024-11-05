@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9d4ecfa-6861-4b10-b80b-801475cf2d31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Simon-Drohsen/big-dev-soon-challenges.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:/Simon-Drohsen/big-dev-soon-challenges.git&quot;,
     &quot;accountId&quot;: &quot;7b8f6cae-fa2a-4cd7-b7ad-b5a7d0c0b157&quot;
   }
 }</component>
@@ -44,7 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;challenge-15&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/simon/Developer/big-dev-soon/big-dev-soon-challenges&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -63,8 +64,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
-        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23726.107" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23726.107" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +94,21 @@
       <workItem from="1725264067207" duration="2387000" />
       <workItem from="1725976309464" duration="17000" />
       <workItem from="1725976385714" duration="5372000" />
+      <workItem from="1726552664167" duration="1805000" />
+      <workItem from="1727072141689" duration="1982000" />
+      <workItem from="1727246509449" duration="596000" />
+      <workItem from="1728282686910" duration="597000" />
+      <workItem from="1728285330044" duration="598000" />
+      <workItem from="1728291139689" duration="1200000" />
+      <workItem from="1728315352571" duration="438000" />
+      <workItem from="1729504922228" duration="9097000" />
+      <workItem from="1729595809607" duration="237000" />
+      <workItem from="1729596594070" duration="170000" />
+      <workItem from="1729596852386" duration="165000" />
+      <workItem from="1729598131035" duration="564000" />
+      <workItem from="1729670922093" duration="596000" />
+      <workItem from="1730185331370" duration="4000" />
+      <workItem from="1730808449791" duration="2456000" />
     </task>
     <servers />
   </component>

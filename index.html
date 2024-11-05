@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <bds />
+<!--    <bds />-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BigDevSoon challenge</title>
@@ -10,30 +10,103 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen">
-    <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg">
-      <img src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg" alt="BigDevSoon Logo" class="w-150 mx-auto">
-      <h1 class="text-2xl font-bold text-center">Music Events challenge</h1>
-      <p class="text">
-        The goal is to transform the provided design screenshot into a functional, complete challenge.
-      </p>
-
-      <ul class="list-disc list-inside space-y-2">
-        <li>Documentation is available at: <strong><a href="https://github.com/elise-bigdevsoon/big-dev-soon-challenge-template" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">GitHub</a></strong>.</li>
-        <li>Use the <strong>Browser</strong> tab for the live preview of your code changes.</li>
-        <li>Read the <strong>Instructions</strong> tab for challenge details.</li>
-        <li>Brainstorm with the <strong>AI Buddy</strong> to speed up and improve your implementation.</li>
-        <li>Ask questions, and discuss with other folks in the <strong>Discussions</strong> tab.</li>
-        <li>Browse community solutions in the <strong>Solutions</strong> tab for inspiration.</li>
-      </ul>
-
-      <p class="text-sm">
-        You can click the <strong>Generate code solution</strong> icon next to the Submit button to generate an AI-based code solution while stuck.
-      </p>
-
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel free to integrate other libraries using their CDNs to enhance your challenge.
-      </p>
-    </div>
-  </body>
+    <body class="bg-[#f1ecff] flex justify-center w-[1440px] h-[1080px]">
+        <div class="flex items-center">
+            <div class="grid grid-cols-2 items-start gap-16 h-fit w-fit">
+                <div class="flex flex-col max-w-fit">
+                    <i class="fa-regular fa-bell text-slate-400 bg-white rounded-full p-1.5 w-fit self-end mb-4 shadow-2xl"></i>
+                    <div class="bg-white text-black p-8 space-y-4 rounded-lg w-fit shadow-2xl">
+                        <div class="flex justify-between mb-12">
+                            <h1 class="text-2xl font-bold">Notifications</h1>
+                            <p class="text-slate-400">Mark as Read</p>
+                        </div>
+                        <div class="text-slate-400 w-96 text-center">
+                            <p>You don't have any notifications yet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col max-w-fit">
+                    <i class="fa-regular fa-bell bg-white rounded-full p-1.5 w-fit self-end mb-4 shadow-2xl"></i>
+                    <div class="bg-white text-black p-8 space-y-4 rounded-lg w-fit shadow-2xl">
+                        <div class="flex justify-between mb-12">
+                            <h1 class="text-2xl font-bold">Notifications</h1>
+                            <p class="text-slate-400">Mark as Read</p>
+                        </div>
+                        <div class="w-96">
+                            <div class="flex">
+                                <div class="relative bottom-6">
+                                    <i class="flex fa-solid fa-users bg-sky-500 text-white rounded-full size-6 p-0.5 justify-center relative top-5 left-6"></i>
+                                    <img src="https://placehold.co/50" class="rounded-full" alt="Profile Picture" />
+                                </div>
+                                <div class="ml-4">
+                                    <p><strong>Jane Anne</strong> joined to <strong>"Design"</strong> Group.</p>
+                                    <p class="text-slate-400">2 min ago</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="relative bottom-6">
+                                    <i class="flex fa-solid fa-message bg-orange-500 text-white rounded-full size-6 p-0.5 justify-center content-center relative top-5 left-6"></i>
+                                    <img src="https://placehold.co/50" class="rounded-full" alt="Profile Picture" />
+                                </div>
+                                <div class="ml-4">
+                                    <p><strong>Ryan</strong> mentioned you in <strong>comment.</strong></p>
+                                    <p class="text-slate-400">2 hours ago</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex">
+                                    <div class="relative bottom-6">
+                                        <i class="flex fa-solid fa-user bg-blue-500 text-white rounded-full size-6 p-0.5 justify-center relative top-5 left-6"></i>
+                                        <img src="https://placehold.co/50" class="rounded-full" alt="Profile Picture" />
+                                    </div>
+                                    <div class="ml-4">
+                                        <p><strong>Leslie Wahl</strong> send you a <strong>friend request.</strong></p>
+                                        <p class="text-slate-400">1 day ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-2 gap-2 w-[288px] items-end mb-4">
+                                    <button class="bg-violet-500 text-white rounded-lg p-2">Accept</button>
+                                    <button class="bg-slate-400 text-white rounded-lg p-2">Delete</button>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="relative bottom-6">
+                                    <i class="flex fa-solid fa-paperclip bg-green-500 text-white rounded-full size-6 p-0.5 justify-center relative top-5 left-6"></i>
+                                    <img src="https://placehold.co/50" class="rounded-full min-w-[50px]" alt="Profile Picture" />
+                                </div>
+                                <div>
+                                    <div class="ml-6 mb-5">
+                                        <p><strong>jeri Gibson</strong> upload 2 attachment to <strong>"Source"</strong> Channel</p>
+                                        <p class="text-slate-400">2 days ago</p>
+                                    </div>
+                                    <div class="flex bg-zinc-200 rounded-lg border border-slate-400 mb-5">
+                                        <div>
+                                            <img src="https://placehold.co/50" class="rounded-lg pl-1.5 pt-1.5 min-w-[50px]" alt="Profile Picture" />
+                                        </div>
+                                        <div class="ml-4">
+                                            <p class="text-slate-600">Techtalk.me</p>
+                                            <p class="text-fuchsia-700"><strong>App Generator - The technology-agnostic way</strong></p>
+                                            <p class="text-slate-400">Even after two years of R&D work. AppSeed is still a super young concept and we expect a slow adoption in the next few...</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex bg-zinc-200 rounded-lg border border-slate-400">
+                                        <div>
+                                            <img src="https://placehold.co/50" class="rounded-lg pl-1.5 pt-1.5" alt="Profile Picture" />
+                                        </div>
+                                        <div class="ml-4 w-full">
+                                            <p class="text-fuchsia-700"><strong>Background Images</strong></p>
+                                            <div class="grid">
+                                                <i class="fa-solid fa-download justify-self-end mr-3"></i>
+                                            </div>
+                                            <p class="text-slate-400">ZIP • 1,4GB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
