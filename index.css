@@ -1,1 +1,17 @@
-/* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    position: relative;
+}
+
+i.fa-magnifying-glass {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}

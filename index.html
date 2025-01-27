@@ -10,30 +10,146 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen">
-    <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg">
-      <img src="https://mqzzwgavxmdmqvivwgez.supabase.co/storage/v1/object/public/previews/logo-challenge-template.svg" alt="BigDevSoon Logo" class="w-150 mx-auto">
-      <h1 class="text-2xl font-bold text-center">Music Events challenge</h1>
-      <p class="text">
-        The goal is to transform the provided design screenshot into a functional, complete challenge.
-      </p>
+  <body class="bg-gray-200">
+    <div class="grid grid-cols-2 items-center justify-items-center h-screen">
+      <div class="bg-white text-black p-8 space-y-4 shadow rounded-2xl w-96 h-[600px] overflow-y-hidden">
+        <div class="flex flex-row items-center space-x-2">
+          <i class="fa-solid fa-shield-dog"></i>
+          <h1 class="text-xl font-bold">FurEver Friends</h1>
+        </div>
+        <div class="relative">
+          <input placeholder="&emsp;&ensp;Search for a friend" class="bg-gray-200 rounded-md w-full" />
+          <i class="fa-solid fa-magnifying-glass absolute left-1 top-1 text-gray-400"></i>
+        </div>
 
-      <ul class="list-disc list-inside space-y-2">
-        <li>Documentation is available at: <strong><a href="https://github.com/elise-bigdevsoon/big-dev-soon-challenge-template" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline">GitHub</a></strong>.</li>
-        <li>Use the <strong>Browser</strong> tab for the live preview of your code changes.</li>
-        <li>Read the <strong>Instructions</strong> tab for challenge details.</li>
-        <li>Brainstorm with the <strong>AI Buddy</strong> to speed up and improve your implementation.</li>
-        <li>Ask questions, and discuss with other folks in the <strong>Discussions</strong> tab.</li>
-        <li>Browse community solutions in the <strong>Solutions</strong> tab for inspiration.</li>
-      </ul>
+        <ul>
+          <li class="my-4">
+            <div class="shadow shadow-[rgba(0,0,15,0.5)_0px_0px_9px_0.1px] rounded-2xl flex flex-row space-x-4">
+              <img class="w-1-4 rounded-2xl" src="https://placehold.co/100" alt="Dog image" />
+              <div class="flex flex-col justify-between p-2 w-full">
+                <div class="flex flex-row space-x-2 items-center">
+                  <h2 class="text-lg font-bold">Lola</h2>
+                  <i class="fa-solid fa-venus"></i>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <p class="text-sm text-gray-400">Jack Russel Terrier</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="flex">
+                  <i class="fa-solid fa-location-dot text-pink-500"></i>
+                  <p class="text-sm">&ensp;2,5 miles</p>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <p class="text-sm">
-        You can click the <strong>Generate code solution</strong> icon next to the Submit button to generate an AI-based code solution while stuck.
-      </p>
+          <li class="my-4">
+            <div class="shadow shadow-[rgba(0,0,15,0.5)_0px_0px_9px_0.1px] rounded-2xl flex flex-row space-x-4">
+              <img class="w-1-4 rounded-2xl" src="https://placehold.co/100" alt="Dog image" />
+              <div class="flex flex-col justify-between p-2 w-full">
+                <div class="flex flex-row space-x-2 items-center">
+                  <h2 class="text-lg font-bold">Baley</h2>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <p class="text-sm text-gray-400">Labrador Retriever</p>
+                  <i class="fa-solid fa-heart text-pink-500"></i>
+                </div>
+                <div class="flex">
+                  <i class="fa-solid fa-location-dot text-pink-500"></i>
+                  <p class="text-sm">&ensp;10 miles</p>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <p class="text-sm border-t pt-6">
-        <strong>Tip</strong>: This example uses TailwindCSS for styling. Feel free to integrate other libraries using their CDNs to enhance your challenge.
-      </p>
+          <li class="my-4">
+            <div class="shadow shadow-[rgba(0,0,15,0.5)_0px_0px_9px_0.1px] rounded-2xl flex flex-row space-x-4">
+              <img class="w-1-4 rounded-2xl" src="https://placehold.co/100" alt="Dog image" />
+              <div class="flex flex-col justify-between p-2 w-full">
+                <div class="flex flex-row space-x-2 items-center">
+                  <h2 class="text-lg font-bold">Buddy</h2>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <p class="text-sm text-gray-400">Border Colie</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="flex">
+                  <i class="fa-solid fa-location-dot text-pink-500"></i>
+                  <p class="text-sm">&ensp;33 miles</p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="my-4">
+            <div class="shadow shadow-[rgba(0,0,15,0.5)_0px_0px_9px_0.1px] rounded-2xl flex flex-row space-x-4">
+              <img class="w-1-4 rounded-2xl" src="https://placehold.co/100" alt="Dog image" />
+              <div class="flex flex-col justify-between p-2 w-full">
+                <div class="flex flex-row space-x-2 items-center">
+                  <h2 class="text-lg font-bold">Tucker</h2>
+                  <i class="fa-solid fa-mars"></i>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <p class="text-sm text-gray-400">German Sheperd</p>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="flex">
+                  <i class="fa-solid fa-location-dot text-pink-500"></i>
+                  <p class="text-sm">&ensp;64 miles</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="my-4">
+            <div class="shadow shadow-[rgba(0,0,15,0.5)_0px_0px_9px_0.1px] rounded-2xl flex flex-row space-x-4">
+              <img class="w-1-4 rounded-2xl" src="https://placehold.co/100" alt="Dog image" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-white text-black space-y-4 shadow rounded-2xl w-96 h-fit relative">
+        <img src="https://placehold.co/384" alt="Dog image" class="rounded-2xl" />
+        <i class="fa-solid fa-arrow-left absolute top-1 left-3"></i>
+        <i class="fa-solid fa-heart absolute top-1 right-3 text-pink-500"></i>
+        <div class="grid grid-cols-2 gap-4 items-center p-4">
+          <div>
+            <div class="flex flex-row space-x-2 items-center">
+              <h2 class="text-lg font-bold">Baley</h2>
+              <i class="fa-solid fa-mars"></i>
+            </div>
+            <div class="flex flex-row justify-between">
+              <p class="text-sm text-gray-400">Labrador Retriever</p>
+            </div>
+          </div>
+          <div class="flex justify-self-end">
+            <i class="fa-solid fa-location-dot text-pink-500"></i>
+            <p class="text-sm">&ensp;10 miles</p>
+          </div>
+        </div>
+        <div class="flex flex-row justify-between p-4">
+          <div class="size-16 bg-gray-200 rounded-lg flex flex-col items-center justify-center">
+            <p><b>Age</b></p>
+            <p>6 yr</p>
+          </div>
+          <div class="size-16 bg-gray-200 rounded-lg flex flex-col items-center justify-center">
+            <p><b>Height</b></p>
+            <p>35 inch</p>
+          </div>
+          <div class="size-16 bg-gray-200 rounded-lg flex flex-col items-center justify-center">
+            <p><b>Weight</b></p>
+            <p>17 lb</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <p class="text-md">Bailey is a gentle and loving Labrador<br>Retriever who is eagerly awaiting her<br>forever homr. With his beautiful... <span class="text-pink-500">SEE MORE</span></p>
+        </div>
+        <div class="grid grid-cols-3 gap-4 p-4">
+          <button class="bg-gray-200 text-black py-4 rounded-2xl">Donate&ensp;<i class="fa-brands fa-bitcoin"></i></button>
+          <button class="bg-pink-500 text-white py-4 rounded-2xl col-span-2">Adopt&ensp;<i class="fa-solid fa-paw"></i></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
